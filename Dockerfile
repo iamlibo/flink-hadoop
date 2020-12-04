@@ -27,6 +27,4 @@ RUN rm -rf $HADOOP_HOME/bin/ $HADOOP_HOME/etc/ $HADOOP_HOME/include/ $HADOOP_HOM
 #COPY lib/*.jar /opt/flink/lib/
 #RUN rm /opt/flink/lib/log4j-1.2-api*.jar
 
-
-
 #ADD hadoop-3.1.3.tar.gz /opt/flink/hadoop
